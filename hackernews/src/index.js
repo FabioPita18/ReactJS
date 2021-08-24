@@ -7,10 +7,12 @@ import reportWebVitals from './reportWebVitals';
 import MyComponent from './MyComponent';
 import Developer from './Developer';
 import Employee from './Employee';
+import Toggle from './HandlingEvents'
+import LoggingButton from './HandlingEvents'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Employee />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
